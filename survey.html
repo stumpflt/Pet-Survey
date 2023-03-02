@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="icon" href="/images/html5logo.png">
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <link rel="stylesheet" href="survey.css" type="text/css">
+</head>
+<body>
+
+<article id="survey">
+<form action="https://sheetdb.io/api/v1/dzs524txw5g7d" method="POST" name="Pet Survey Data">
+<br>
+<fieldset>
+    <legend>Do you have Pets?</legend>
+    <p>
+        <input type="checkbox" name="data[pets]" id="cat" value="cat">
+        <label for="cat">Cat</label>
+    </p>
+    <p>
+        <input type="checkbox" name="data[pets]" id="dog" value="dog">
+        <label for="dog">Dog</label>
+    </p>
+    <p>
+        <input type="checkbox" name="data[pets]" id="bothPet" value="bothPet">
+        <label for="bothPet">Both</label>
+    </p>
+    <p>
+        <input type="checkbox" name="data[pets]" id="otherPet" value="other">
+        <label for="other">Other</label>
+    </p>
+</fieldset>
+
+<br>
+<fieldset>
+    <legend>How many Pets do you have?</legend>
+    <p>
+        <label for="quantity"></label>
+        <input type="number" id="quantity" name="data[quantity]" min="1" max="5">
+    </p>
+</fieldset>
+
+<br>
+<fieldset>
+    <legend>Do you have a Pet, that has been rescued from the streets?</legend>
+    <p>
+        <input type="radio" name=data[petRes] id="optYes" value="optYes">
+        <label for="optYes">Yes.</label>
+    </p>
+    <p>
+        <input type="radio" name=data[petRes] id="optNo" value="optNo">
+        <label for="optNo">No.</label>
+    </p>
+</fieldset>
+<button type="submit">Submit</button>
+</form>
+</article>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

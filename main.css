@@ -1,0 +1,23 @@
+body {
+    background-image: url("images/bcg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x:center top;
+}
+
+h1 {
+    text-align: center;
+    font-family: Consolas;
+    font-weight: bolder;
+    font-size: 240%;
+}
+
+main {
+    text-align: center;
+    font-family: Arial Black;
+}
+
+figure {
+    text-align: center;
+}
+
