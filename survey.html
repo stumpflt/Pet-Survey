@@ -32,6 +32,10 @@
         <input type="checkbox" name="data[pets]" id="otherPet" value="other">
         <label for="other">Other</label>
     </p>
+    <p>
+        <input type="checkbox" name="data[pets]" id="none" value="none">
+        <label for="other">None</label>
+    </p>
 </fieldset>
 
 <br>
@@ -39,7 +43,7 @@
     <legend>How many Pets do you have?</legend>
     <p>
         <label for="quantity"></label>
-        <input type="number" id="quantity" name="data[quantity]" min="1" max="5">
+        <input type="number" id="quantity" name="data[quantity]" min="0" max="5">
     </p>
 </fieldset>
 
@@ -59,20 +63,6 @@
 </form>
 </article>
 <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
